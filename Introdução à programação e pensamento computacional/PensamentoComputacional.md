@@ -8,10 +8,10 @@ Processo de pensamento envolvido na expressão de soluções em passos computaci
 
 ### 4 Pilares
 
-1 Decomposição: dividir o problema em probleminhas
-2 Reconhecimento de padrões: Similaridades e diferenças
-3 Abstração: extrapolar o conceito específico para generalista
-4 Design de algoritmos: definir o passo a passo para soluções de problemas
+1. Decomposição: dividir o problema em probleminhas
+2. Reconhecimento de padrões: Similaridades e diferenças
+3. Abstração: extrapolar o conceito específico para generalista
+4. Design de algoritmos: definir o passo a passo para soluções de problemas
 
 Refinamento -> Teste -> Análise
 
@@ -44,30 +44,30 @@ A lógica vem para resolver problemas
     - Entrada de dados - Processamento de dados (Transformação) - Saída de dados
 
 ### Fundamentos de algoritmos
-Tipologia: numéricos, caracteres, lógico
-Variáveis: estrutura mutável, pode assumir qualquer valor, possui papel de ação e controle
+- Tipologia: numéricos, caracteres, lógico
+- Variáveis: estrutura mutável, pode assumir qualquer valor, possui papel de ação e controle
 
 -- Instruções primitivas possuem sintaxe particular dentro de cada linguagem de programação
 
 ##### Estrutura condicional e operadores
 
-Condição (Não satisfeita) -> Exceção
-Condição (Satisfeita) -> Operação
+- Condição (Não satisfeita) -> Exceção
+- Condição (Satisfeita) -> Operação
 
-- Simples, composta, encadeada
+-- Simples, composta, encadeada
 
 ##### Operadores lógicos
-AND - todos devem ser verdadeiros 
-OR - Apenas um precisa ser verdadeiro
-NOT - Inverte o valor lógico
+- AND - todos devem ser verdadeiros 
+- OR - Apenas um precisa ser verdadeiro
+- NOT - Inverte o valor lógico
 
 ##### Estrutura de repetição
 Sempre precisa de uma condição de parada para entrar em loop infinito
 
 Tipos:
-Enquanto ... faça
-Repita ... até
-Para ... de ... até ... faça
+-- Enquanto ... faça
+-- Repita ... até
+-- Para ... de ... até ... faça
 
 ##### Valores e matrizes
 Ajudam a reduzir o número de linhas no código
@@ -78,8 +78,8 @@ Ajudam a reduzir o número de linhas no código
 - Possui nome e parâmetros
 
 ##### Instruções de entrada
-Entrada: Hadware, Banco de dados
-Saída: Sair em arquivos, imprimir na tela
+- Entrada: Hadware, Banco de dados
+- Saída: Sair em arquivos, imprimir na tela
 
 ### Linguagem de programação
 1949 - Assembly - Primeira linguagem - Linguagem de máquina
