@@ -43,7 +43,7 @@ $ git push origin main
 $ git pull
 ```
 
-###### Criando branch
+###### Criando e mudando para nova branch
 ```
 $ git checkout -b "nomeDaNovaBranch"
 ```
@@ -51,7 +51,7 @@ $ git checkout -b "nomeDaNovaBranch"
 ```
 $ git checkout nomeDaBranch
 ```
-
-
-
-
+###### Editar mensagem do último commit
+```
+$ git commit --amend
+```
