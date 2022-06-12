@@ -15,7 +15,7 @@ ID: é representado pelo símbolo # seguido do nome para esse ID.
 
 ```
 No HTML:
-<a ID="profile"></a>
+<a id="profile"></a>
 
 No CSS:
 #profile{
@@ -84,7 +84,7 @@ div{
 ### Definir cores
 A definição de cores pode ser feita de 3 formas:
 1. Pelo nome da cor em inglês (red);
-2. Pelo código hexadecimal (#ffffff);
+2. Pelo código hexadecimal (#FFFFFF);
 3. Usando apenas o atalho _background_
 
 ### Border
@@ -99,7 +99,7 @@ O estilo é representado por palavras, como:
 
 ``` css
 div{
-    border: solid 1px color: red;
+    border: solid 1px #FFFFFF;
 }
 ```
 As propriedades especificas são _border-width_ para a largura, _border-color_ para a cor e _border-style_ para o estilo.
@@ -117,3 +117,25 @@ Colocando apenas um valor mudamos todos os cantos do elemento. Mas seguindo a me
 
 `font-style` altera o texto para itálico.
 
+`text-transform` altera o texto para tudo maiúsculo (uppercase), minúsculo (lowercase) ou capitalizado (capitalize).
+
+`font-weight` altera o texto para normal ou bold.
+
+`text-decoration` coloca linhas no em cima do texto (underline), abaixo do texto (overline) ou sobre o texto (line-through).
+
+`text-align` alinha o texto usando as propriedades right, left, center e justify.
+
+### Mudar os marcador de listas
+`list-style-type`
+Existem vários valores tanto para listas ordenadas quanto para não ordenadas. 
+Alguns deles são:
+- square: muda para um quadrado;
+- upper-roman: muda para algorismo romano maiúsculo;
+- símbolos: deve ser adicionado os código do símbolo;
+- imagem: usa a url da imagem.
+
+### Dimensões e alinhamento
+`width` representa a largura do conteúdo;
+`height` representa a altura do conteúdo;
+`max-width` largura máxima do conteúdo (pode ser usado para ajustar o conteúdo em diferentes tamanhos de tela);
+`max-height` altura máxima do conteúdo;
